@@ -21,7 +21,9 @@ console.log(a); // Uncaught ReferenceError: a is not defined
 ```
 
 * JS is a **loosely typed / weakly typed** language. It doesn't attach variables to any datatype. We can say *var a = 5*, and then change the value to boolean *a = true* or string *a = 'hello'* later on. 
-* **Never** assign *undefined* to a variable manually. Let it happen on it's own accord.
+* **Never** assign *undefined* to a variable manually. It is not a good practice.
+
+![image](https://github.com/R-SNGH/javascript-notes/assets/117880135/330acfe7-482e-47b8-bb9d-b46ba0b2e64f)
 
 <hr>
 
