@@ -8,6 +8,9 @@
 
 * Not Defined !== Undefined
 
+![image](https://github.com/R-SNGH/javascript-notes/assets/117880135/3d2ec691-cf7f-4fcc-bdd4-1ee2148f0369)
+
+
 > When variable is declared but not assigned value, its current value is **undefined**. But when the variable itself is not declared but called in code, then it is **not defined**. 
 
 ```js
