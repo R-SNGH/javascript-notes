@@ -1,4 +1,4 @@
-# Episode 6 : undefined vs not defined in JS
+# Episode 6 : undefined(special JS keyword: var assigned memory) vs not defined(var not defined at all) in JS
 
 * In first phase (memory allocation) JS assigns each variable a placeholder called **undefined**.
 
