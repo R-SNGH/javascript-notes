@@ -9,7 +9,12 @@ function getName() {
  console.log("Namaste Javascript");
 }
 ```
+OutPut: 
 
+![image](https://github.com/R-SNGH/javascript-notes/assets/117880135/75e986c0-b229-4820-9fc2-d0bdb67697d3)
+
+
+Explaination:
 * It should have been an outright error in many other languages, as it is not possible to even access something which is not even created (defined) yet But in JS, We know that in memory creation phase it assigns undefined and puts the content of function to function's memory. And in execution, it then executes whatever is asked. Here, as execution goes line by line and not after compiling, it could only print undefined and nothing else. This phenomenon, is not an error. However, if we remove var x = 7; then it gives error. Uncaught ReferenceError: x is not defined
 
 * **Hoisting** is a concept which enables us to extract values of variables and functions even before initialising/assigning value without getting error and this is happening due to the 1st phase (memory creation phase) of the Execution Context.
