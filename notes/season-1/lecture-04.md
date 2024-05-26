@@ -27,6 +27,8 @@ Outputs:
 
 ## Code Flow in terms of Execution Context
 
+![image](https://github.com/R-SNGH/javascript-notes/assets/117880135/cfb2a43c-1e19-424e-9f4a-535fea89abba)
+
 * The Global Execution Context (GEC) is created (the big box with Memory and Code subparts). Also GEC is pushed into Call Stack
 
 > Call Stack : GEC
