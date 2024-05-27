@@ -1,8 +1,11 @@
 # Episode 7 : The Scope Chain, Scope & Lexical Environment
 
-* **Scope** in Javascript is directly related to **Lexical Environment**.
+Summary:-
+1) Lexical Environment: created with an Execution Context. Local memory + reference to lexical environment of parent(where the functin exactly sits in code)
+2) Scope: directly related to **Lexical Environment**
+3) Scope Chain: JS Engine first searches in local memory then the parent and so on till the GEC(anonymous), this is scope chain. If scope chain is exhausted and var is not found, its a "Uncaught reference error"
 
-* Let's observe the below examples:
+Examples:
 ```js
 // CASE 1
 function a() {
