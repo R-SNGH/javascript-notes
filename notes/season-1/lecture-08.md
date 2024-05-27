@@ -1,6 +1,11 @@
 # Episode 8 : let & const in JS, Hoisting(allocated memory in phase 1) + Temporal Dead Zone
 
 these are recent additions to JS. Hoisting -> implies allocated memory
+TDZ -> Time window where we get a Reference error when accessing let before its initialized coz its not available in current scope
+
+![image](https://github.com/R-SNGH/javascript-notes/assets/117880135/a4d87913-4a8b-42ce-bea7-667d1eadb6c9)
+![image](https://github.com/R-SNGH/javascript-notes/assets/117880135/adf25747-0cac-4577-89f2-60d8e49a2cfc)
+![image](https://github.com/R-SNGH/javascript-notes/assets/117880135/3a59f653-9dbe-41f3-9e5e-47eae2c839af)
 
 * let and const declarations are hoisted. But they are stored in a different memory space compared to **var**
     ```js
@@ -14,15 +19,13 @@ these are recent additions to JS. Hoisting -> implies allocated memory
     ```
 ![image](https://github.com/R-SNGH/javascript-notes/assets/117880135/52a88b2b-e577-4ef8-9916-9303fc3295fa)
 
+It looks like let isn't hoisted, **but it is**, let's understand
+  * Both a and b are actually initialized as *undefined* in hoisting stage. But var **b** is inside the storage space of GLOBAL, and **a** is in a separate memory object called SCRIPT, where it can be accessed only after assigning some value to it first ie. one can access 'a' only if it is assigned. Otherwise, it throws Reference error.
 
-   It looks like let isn't hoisted, **but it is**, let's understand
-  * Both a and b are actually initialized as *undefined* in hoisting stage. But var **b** is inside the storage space of GLOBAL, and **a** is in a separate memory object called script, where it can be accessed only after assigning some value to it first ie. one can access 'a' only if it is assigned. Thus, it throws error.
-
-<br>
 
 * **Temporal Dead Zone** : Time since when the let variable was hoisted until it is initialized some value. 
     - So any line till before "let a = 10" is the TDZ for a
-    - Since a is not accessible on global, its not accessible in *window/this* also. window.b or this.b -> 15; But window.a or this.a ->undefined, just like window.x->undefined (x isn't declared anywhere)
+    - Since a is not accessible with global, its not accessible in *window/this* also. window.b or this.b -> 15; But window.a or this.a ->undefined, just like window.x->Reference Error (x isn't declared anywhere)
 
 * **Reference Error** are thrown when variables are in temporal dead zone.
 
