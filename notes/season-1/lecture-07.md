@@ -1,4 +1,4 @@
-# Episode 7 : The Scope Chain, Scope & Lexical Environment
+# Episode 7 : The Scope Chain, Scope & Lexical Environment (Basics of Closures)
 
 Summary:-
 1) Lexical Environment: created with an Execution Context. Local memory + reference to lexical environment of parent(where the functin exactly sits in code)
