@@ -2,6 +2,10 @@
 
 What is a **Block**?
 * Block aka *compound statement* is used to group JS statements together into 1 group. We group them within {...}
+* This helps us use multiple statements where JS Engine expects only one statement
+* Eg:
+![image](https://github.com/R-SNGH/javascript-notes/assets/117880135/e83f2846-b091-4ede-be58-09ffa4e002af)
+
     ```js
     {
         var a = 10;
@@ -11,6 +15,7 @@ What is a **Block**?
         // While, var is hoisted in Global scope.
     }
     ```
+    ![image](https://github.com/R-SNGH/javascript-notes/assets/117880135/cfcd92cc-0c7f-4503-bd4d-b7ed525deb42)
 
 * Block Scope and its accessibility example
     ```js
