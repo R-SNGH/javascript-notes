@@ -43,6 +43,12 @@ function () {
 
 }// this is going to throw Syntax Error - Function Statement requires function name.
 ```
+```js
+var b = function() {
+  console.log("Hello");
+}
+b();
+```
 - They don't have their own identity. So an anonymous function without code inside it results in an error. 
 - Anonymous functions are used when functions are used as values eg. the code sample for **function expression** above.
 
