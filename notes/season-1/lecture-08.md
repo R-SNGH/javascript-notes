@@ -1,5 +1,7 @@
 # Episode 8 : let & const in JS, Hoisting + Temporal Dead Zone
 
+these are recent additions to JS. 
+
 * let and const declarations are hoisted. But its different from **var**
     ```js
     console.log(a); // ReferenceError: Cannot access 'a' before initialization
