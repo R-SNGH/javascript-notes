@@ -2,7 +2,7 @@
 
 these are recent additions to JS. 
 
-* let and const declarations are hoisted. But its different from **var**
+* let and const declarations are hoisted. But they are stored in a different memory space compared to **var**
     ```js
     console.log(a); // ReferenceError: Cannot access 'a' before initialization
     console.log(b); // prints undefined as expected
