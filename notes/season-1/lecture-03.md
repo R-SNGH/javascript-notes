@@ -1,5 +1,5 @@
-# Episode 3 : Hoisting in JavaScript (variables & functions):
-A result of how the Execution context works in Phase 1
+# Episode 3 : Hoisting in JavaScript (variables & functions): A result of how the Execution context works in Phase 1
+
 
 * Let's observe the below code and it's explaination:
 ```js
