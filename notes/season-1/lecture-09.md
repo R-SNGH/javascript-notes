@@ -88,6 +88,7 @@ What is **Illegal Shadowing**?
     * All scope rules that work in function are same in arrow functions too.
     * Since var is function scoped, it is not a problem with the code below.
         ```js
+        //ALLOWED
         let a = 20;
         function x() {
             var a = 20;
