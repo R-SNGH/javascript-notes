@@ -75,7 +75,7 @@ console.log(b); // Error, Not Defined
 
 * Whenever an Execution Context is created, a Lexical environment(LE) is also created and is referenced in the local Execution Context(in memory space).
 
-* The process of going one by one to parent and checking for values is called scope chain or Lexcial environment chain.
+* Scope Chain: JS Engine first tries to find the variable in the local scope/ local memory of current function, if not found, it goes to the calling function, and so on till it reaches the GEC. This process of going one by one to parent and checking for values is called scope chain or Lexcial environment chain.
 
 * ```js
   function a() {
