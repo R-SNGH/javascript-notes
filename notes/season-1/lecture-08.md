@@ -1,6 +1,6 @@
-# Episode 8 : let & const in JS, Hoisting + Temporal Dead Zone
+# Episode 8 : let & const in JS, Hoisting(allocated memory in phase 1) + Temporal Dead Zone
 
-these are recent additions to JS. 
+these are recent additions to JS. Hoisting -> implies allocated memory
 
 * let and const declarations are hoisted. But they are stored in a different memory space compared to **var**
     ```js
