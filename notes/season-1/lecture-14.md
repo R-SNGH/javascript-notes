@@ -1,8 +1,9 @@
 # Episode 14 : Callback Functions in JS ft. Event Listeners
 
 ### Callback Functions
+* JS is a synchronous single threaded language. Callback functions give us access to a whole new **Asynchronous** world in **Synchronous** / single threaded JavaScript.
 * Functions are first class citizens ie. take a function A and pass it to another function B.
-* Here, A is a callback function. So basically I am giving B the responsibility to call A sometime in the future. Callback functions gives us the access to a whole **Asynchronous** world in **Synchronous** / single threaded JavaScript.
+* Here, A is a callback function. So basically I am giving B the responsibility to call A sometime in the future. 
 ```js
 setTimeout(function () {
     console.log("Timer");
